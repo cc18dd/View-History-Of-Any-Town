@@ -6,3 +6,11 @@ https://ngmdb.usgs.gov/topoview/  - Historical GIS Maps
 https://vintageaerial.com - Historical Aerial Photos
 
 https://city-data.com - Historical Statistics and Forum
+
+https://planecrashmap.com/map/ - Local Plane Crashes
+
+https://www.extremeweatherwatch.com/ - Temperature Data
+
+Other notable sources -
+Vintage aerial photo
+Ask local people about local history! Don't let it get forgotten.

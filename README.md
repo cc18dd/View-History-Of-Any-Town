@@ -14,5 +14,5 @@ https://www.extremeweatherwatch.com/ - Temperature Data
 Google Crisis Map - Defunct
 
 Other notable sources -
-
+Local libraries, historical societies, old houses etc
 Ask local people about local history! Don't let it get forgotten.

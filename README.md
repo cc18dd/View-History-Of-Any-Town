@@ -11,6 +11,8 @@ https://planecrashmap.com/map/ - Local Plane Crashes
 
 https://www.extremeweatherwatch.com/ - Temperature Data
 
+Google Crisis Map - Defunct
+
 Other notable sources -
-Vintage aerial photo
+
 Ask local people about local history! Don't let it get forgotten.

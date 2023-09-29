@@ -1,78 +1,79 @@
 body {
-            font-family: Arial, sans-serif;
-        }
+    font-family: Arial, sans-serif;
+}
 
-        h1 {
-            background-color: #0B9FD1;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
+h1 {
+    background-color: #0B9FD1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-        label {
-            font-weight: bold;
-        }
+label {
+    font-weight: bold;
+}
 
-        input[type="text"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
-        button {
-            background-color: #0B9FD1;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
+button {
+    background-color: #0B9FD1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
 
-        button:hover {
-            background-color: #09729E;
-        }
+button:hover {
+    background-color: #09729E;
+}
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
 
-        table, th, td {
-            border: 1px solid #ccc;
-        }
+table, th, td {
+    border: 1px solid #ccc;
+}
 
-        th, td {
-            padding: 8px;
-            text-align: left;
-        }
+th, td {
+    padding: 8px;
+    text-align: left;
+}
 
-        th {
-            background-color: #0B9FD1;
-            color: white;
-        }
+th {
+    background-color: #0B9FD1;
+    color: white;
+}
 
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
+ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-        ul li {
-            margin-bottom: 10px;
-        }
+ul li {
+    margin-bottom: 10px;
+}
 
-        a {
-            text-decoration: none;
-            color: #0B9FD1;
-        }
+a {
+    text-decoration: none;
+    color: #0B9FD1;
+}
 
-        a:hover {
-            text-decoration: underline;
-        }
+a:hover {
+    text-decoration: underline;
+}
+    

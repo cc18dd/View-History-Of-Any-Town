@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Historical Town Resources</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
     <h1>List of Resources to View the History of any town</h1>
+    <h1>Town Information Lookup</h1>
+    <div class="container">
+        <label for="townName">Enter the name of a town:</label>
+        <input type="text" id="townName" placeholder="Enter town name">
+        <button onclick="lookupTown()">Lookup</button>
+        <h2>Search Results:</h2>
+        <ul id="results"></ul>
+    </div>
     <ul>
         <li><a href="https://ngmdb.usgs.gov/topoview/">Historical GIS Maps</a></li>
         <li><a href="https://vintageaerial.com">Historical Aerial Photos</a></li>

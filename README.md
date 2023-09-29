@@ -11,6 +11,10 @@ https://planecrashmap.com/map/ - Local Plane Crashes
 
 https://www.extremeweatherwatch.com/ - Temperature Data
 
+Google Earth Pro Satellite History
+
+Google Street View (Recent)
+
 Google Crisis Map - Defunct
 
 Other notable sources -

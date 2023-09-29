@@ -7,7 +7,7 @@ function lookupTown() {
         // Create links to the services based on the town name
         var topoViewLink = '<li><a href="https://ngmdb.usgs.gov/topoview/?q=' + encodeURIComponent(townName) + '">TopoView</a></li>';
         var vintageAerialLink = '<li><a href="https://vintageaerial.com/photos/search?q=' + encodeURIComponent(townName) + '">VintageAerial</a></li>';
-        var cityDataLink = '<li><a href="https://www.city-data.com/search/?&siteurl=www.city-data.com/#&gsc.q=' + encodeURIComponent(townName) + '.html">City-Data</a></li>';
+        var cityDataLink = '<li><a href="https://www.city-data.com/search/?&siteurl=www.city-data.com/#&gsc.q=' + encodeURIComponent(townName) + '">City-Data</a></li>';
         var extremeWeatherWatchLink = '<li><a href="https://www.google.com/search?q=site:ExtremeWeatherWatch.COM%20' + encodeURIComponent(townName) + '">ExtremeWeatherWatch</a></li>';
         var planeCrashMapLink = '<li><a href="https://www.google.com/search?q=site:planecrashmap.com%20' + encodeURIComponent(townName) + '">PlaneCrashMap</a></li>';
 

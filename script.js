@@ -5,7 +5,7 @@ function lookupTown() {
     if (townName !== "") {
         resultsTableBody.innerHTML = `
             <tr>
-                <td>TopoView</td>
+                <td>TopoView (Not Working)</td>
                 <td><a href="https://ngmdb.usgs.gov/topoview/?q=${encodeURIComponent(townName)}">Link</a></td>
                 <td></td>
             </tr>

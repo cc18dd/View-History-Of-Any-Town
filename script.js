@@ -30,6 +30,11 @@ function lookupTown() {
                 <td></td>
             </tr>
             <tr>
+                <td>Google Maps</td>
+                <td><a href="https://www.google.com/maps/place/${encodeURIComponent(townName)}">Link</a></td>
+                <td></td>
+            </tr>
+            <tr>
                 <td>Wikipedia</td>
                 <td><a href="https://en.wikipedia.org/wiki/${encodeURIComponent(townName)}">Link</a></td>
                 <td></td>

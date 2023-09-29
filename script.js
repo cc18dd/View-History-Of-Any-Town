@@ -9,7 +9,7 @@ function lookupTown() {
         var vintageAerialLink = '<li><a href="https://vintageaerial.com/photos/search?q=' + encodeURIComponent(townName) + '">VintageAerial</a></li>';
         var cityDataLink = '<li><a href="https://www.city-data.com/search/?&siteurl=www.city-data.com/#&gsc.q=' + encodeURIComponent(townName) + '.html">City-Data</a></li>';
         var extremeWeatherWatchLink = '<li><a href="https://www.google.com/search?q=site:ExtremeWeatherWatch.COM%20' + encodeURIComponent(townName) + '">ExtremeWeatherWatch</a></li>';
-        var planeCrashMapLink = '<li><a href="https://planecrashmap.com/map/?q=' + encodeURIComponent(townName) + '">PlaneCrashMap</a></li>';
+        var planeCrashMapLink = '<li><a href="https://www.google.com/search?q=site:planecrashmap.com%20' + encodeURIComponent(townName) + '">PlaneCrashMap</a></li>';
 
         // Display the links in the results list
         var resultsList = document.getElementById("results");

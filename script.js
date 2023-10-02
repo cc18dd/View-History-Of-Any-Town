@@ -39,6 +39,11 @@ function lookupTown() {
                 <td><a href="https://data.census.gov/all?q=${encodeURIComponent(townName)}">Link</a></td>
                 <td></td>
             </tr>
+            <tr>
+                <td>Google Maps</td>
+                <td><a href="https://maps.google.com/search/${encodeURIComponent(townName)}">Link</a></td>
+                <td></td>
+            </tr>
         `;
     } else {
         resultsTableBody.innerHTML = `

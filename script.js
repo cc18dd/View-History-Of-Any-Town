@@ -44,6 +44,11 @@ function lookupTown() {
                 <td><a href="https://google.com/maps/search/${encodeURIComponent(townName)}">Link</a></td>
                 <td></td>
             </tr>
+            <tr>
+                <td>Facebook</td>
+                <td><a href="https://www.facebook.com/search/?q=${encodeURIComponent(townName)}%20History">Link</a></td>
+                <td></td>
+            </tr>
         `;
     } else {
         resultsTableBody.innerHTML = `

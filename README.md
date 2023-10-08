@@ -25,6 +25,8 @@ Wikipedia
 
 US Census
 
+ChatGPT/Google Bard
+
 Facebook Groups
 
 Local libraries, historical societies, old houses etc

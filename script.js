@@ -42,7 +42,7 @@ function lookupTown() {
             <tr>
                 <td>Facebook</td>
                 <td><a href="https://www.facebook.com/search/?q=${encodeURIComponent(townName)}%20History">Link</a></td>
-                <td></td>
+                <td><a href="https://www.facebook.com/search/?q=If you grew up in ${encodeURIComponent(townName)}%20then you know">Link</a></td>
             </tr>
         `;
     } else {

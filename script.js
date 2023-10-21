@@ -44,6 +44,11 @@ function lookupTown() {
                 <td><a href="https://www.facebook.com/search/?q=${encodeURIComponent(townName)}%20History">Link</a></td>
                 <td><a href="https://www.facebook.com/search/?q=If you grew up in ${encodeURIComponent(townName)}%20then you know">Link</a></td>
             </tr>
+            <tr>
+                <td>TopoView</td>
+                <td><a href="https://ngmdb.usgs.gov/topoview/">Link</a></td>
+                <td></td>
+            </tr>
         `;
     } else {
         resultsTableBody.innerHTML = `

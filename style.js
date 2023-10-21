@@ -1,4 +1,4 @@
- <script>
+
         // Function to check if the user is on a mobile device
         function isMobileDevice() {
             return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
@@ -20,4 +20,4 @@
             link.href = 'style.css'; // Path to your mobile CSS file
             document.getElementsByTagName('head')[0].appendChild(link);
         }
-    </script>
+   

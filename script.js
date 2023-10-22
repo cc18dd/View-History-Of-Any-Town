@@ -50,6 +50,11 @@ function lookupTown() {
                 <td><a href="https://ngmdb.usgs.gov/topoview/">Launch Topoview</a></td>
                 <td></td>
             </tr>
+            <tr>
+                <td>GeoHack (Coordinates Needed)</td>
+                <td><a href="https://geohack.toolforge.org/">Launch GeoHack</a></td>
+                <td></td>
+            </tr>
         `;
     } else {
         resultsTableBody.innerHTML = `

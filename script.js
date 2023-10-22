@@ -46,13 +46,13 @@ function lookupTown() {
                 <td><a href="https://www.facebook.com/search/?q=If you grew up in ${encodeURIComponent(townName)}%20then you know">If you grew up in ${townName} then you know</a></td>
             </tr>
             <tr>
-                <td>TopoView</td>
-                <td><a href="https://ngmdb.usgs.gov/topoview/">Launch Topoview</a></td>
+                <td>YouTube</td>
+                <td><a href="https://youtube.com/?q=">Youtube Search</a></td>
                 <td></td>
             </tr>
             <tr>
-                <td>GeoHack (Coordinates Needed)</td>
-                <td><a href="https://geohack.toolforge.org/">Launch GeoHack</a></td>
+                <td>TopoView</td>
+                <td><a href="https://ngmdb.usgs.gov/topoview/">Launch Topoview</a></td>
                 <td></td>
             </tr>
         `;

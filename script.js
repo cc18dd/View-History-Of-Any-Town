@@ -36,7 +36,7 @@ function lookupTown() {
             </tr>
             <tr>
                 <td>Google Maps</td>
-                <td><a href="https://www.google.com/maps?q=${encodeURIComponent(townName)}">Launch Google Maps</a></td>
+                <td><a href="geo://?q=${encodeURIComponent(townName)}">Launch Maps</a></td>
                 <td><a href="https://google.com/maps/search/${encodeURIComponent(townName)}">Launch Google Maps</a></td>
                 
             </tr>

@@ -72,6 +72,22 @@ a {
     text-decoration: none;
     color: #0B9FD1;
 }
+notable {
+    color: blue; /* Set the text color to blue */
+}
+
+notable h1 {
+    font-size: 24px; /* Set the font size for the h1 element */
+}
+
+notable a {
+    color: blue; /* Set the link text color to blue */
+    text-decoration: none; /* Remove the default underline on links */
+}
+
+notable a:hover {
+    text-decoration: underline; /* Add underline on links when hovered */
+}
 
 a:hover {
     text-decoration: underline;

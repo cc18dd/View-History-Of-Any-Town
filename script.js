@@ -36,8 +36,8 @@ function lookupTown() {
             </tr>
             <tr>
                 <td>Google Maps</td>
-                <td><a href="geo://?q=${encodeURIComponent(townName)}">Launch Maps</a></td>
                 <td><a href="https://google.com/maps/search/${encodeURIComponent(townName)}">Launch Google Maps</a></td>
+                <td><a href="geo://?q=${encodeURIComponent(townName)}">Launch Maps</a></td>
                 
             </tr>
             <tr>
@@ -47,8 +47,8 @@ function lookupTown() {
             </tr>
             <tr>
                 <td>YouTube</td>
-                <td><a href="youtube://www.youtube.com/results?search_query=${encodeURIComponent(townName)}%20History">Youtube Search</a></td>
                 <td><a href="https://youtube.com/results?search_query=${encodeURIComponent(townName)}%20History">Youtube Search</a></td>
+                <td><a href="youtube://www.youtube.com/results?search_query=${encodeURIComponent(townName)}%20History">Youtube Search</a></td>
             </tr>
             <tr>
                 <td>TopoView</td>

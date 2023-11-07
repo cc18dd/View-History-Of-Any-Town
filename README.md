@@ -40,3 +40,6 @@ Also, look for local historical things like fossils, arrowheads, etc that could 
 
 Sad notes-
 A lot of southern towns have swept up their history about slavery and don't talk about it in schools. Some local farms you pass by may have had slaves in them 100 years ago.
+
+Another cool note-
+When building the interstate system, all sorts of small concrete tunnels were built to let wildlife and water flow through!

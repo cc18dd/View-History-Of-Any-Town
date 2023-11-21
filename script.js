@@ -55,6 +55,17 @@ function lookupTown() {
                 <td><a href="https://ngmdb.usgs.gov/topoview/">Launch Topoview</a></td>
                 <td></td>
             </tr>
+            <tr>
+                <td>Google Search</td>
+                <td><a href="https://google.com/?q=${encodeURIComponent(townName)}%20History">${townName} History</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Google Search</td>
+                <td><a href="https://bing.com/?q=${encodeURIComponent(townName)}%20History">${townName} History</a></td>
+                <td></td>
+            </tr>
+
         `;
     } else {
         resultsTableBody.innerHTML = `

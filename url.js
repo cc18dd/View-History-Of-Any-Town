@@ -11,8 +11,8 @@ function urlLook() {
             // Set the townName variable to the query value
             const townName = queryValue;
 
-            // Call the lookupTown() function with the extracted query
-            lookupTown(townName);
+            // Call the lookupTown() function with the extracted query CALL DOESNT WORK
+            //lookupTown(townName);
         }
     }
 

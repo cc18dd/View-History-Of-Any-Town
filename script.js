@@ -80,6 +80,11 @@ function lookupTown() {
                 <td><a href="https://duckduckgo.com/?q=${encodeURIComponent(townName)}%20History">${townName} History</a></td>
                 <td></td>
             </tr>
+            <tr>
+                <td>Subreddit Search</td>
+                <td><a href="https://old.reddit.com/r/${encodeURIComponent(townName)}/search?q=history">Subreddit Search</a></td>
+                <td></td>
+            </tr>
 
         `;
     } else {

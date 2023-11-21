@@ -61,8 +61,13 @@ function lookupTown() {
                 <td></td>
             </tr>
             <tr>
-                <td>Google Search</td>
+                <td>Bing Search</td>
                 <td><a href="https://bing.com/?q=${encodeURIComponent(townName)}%20History">${townName} History</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>DuckDuckGo Search</td>
+                <td><a href="https://duckduckgo.com/?q=${encodeURIComponent(townName)}%20History">${townName} History</a></td>
                 <td></td>
             </tr>
 

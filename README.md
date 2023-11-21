@@ -43,3 +43,5 @@ A lot of southern towns have swept up their history about slavery and don't talk
 
 Another cool note-
 When building the interstate system, all sorts of small concrete tunnels were built to let wildlife and water flow through!
+
+Another thing, pay attention to any roads, creeks, hills, towns, that are named especially ones that people don't talk about, there could be underlying history about these names and you don't even know about it!

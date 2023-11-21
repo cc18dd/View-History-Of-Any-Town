@@ -41,6 +41,12 @@ function lookupTown() {
                 
             </tr>
             <tr>
+                <td>Google Earth</td>
+                <td><a href="https://earth.google.com/web/search/${encodeURIComponent(townName)}">Launch Google Earth</a></td>
+                <td></td>
+                
+            </tr>
+            <tr>
                 <td>Facebook</td>
                 <td><a href="https://www.facebook.com/search/?q=${encodeURIComponent(townName)}%20History">${townName} History</a></td>
                 <td><a href="https://www.facebook.com/search/?q=If you grew up in ${encodeURIComponent(townName)}%20then you know">If you grew up in ${townName} then you know</a></td>

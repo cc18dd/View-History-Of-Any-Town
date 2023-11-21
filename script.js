@@ -82,7 +82,7 @@ function lookupTown() {
             </tr>
             <tr>
                 <td>Subreddit Search</td>
-                <td><a href="https://old.reddit.com/r/${encodeURIComponent(townName)}/search?q=subreddit:${encodeURIComponent(townName)%20history">Subreddit Search</a></td>
+                <td><a href="https://old.reddit.com/r/${encodeURIComponent(townName)}/search?q=subreddit:${townName}%20history">Subreddit Search</a></td>
                 <td></td>
             </tr>
 

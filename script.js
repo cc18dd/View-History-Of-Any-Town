@@ -1,4 +1,8 @@
 function lookupTown() {
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const queryParam = urlParams.get('q');
+    
     var townName = document.getElementById("townName").value.trim();
     var resultsTableBody = document.getElementById("resultsTableBody");
 

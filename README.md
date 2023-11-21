@@ -1,7 +1,7 @@
 # [View-History-Of-Any-Town](https://cc18dd.github.io/View-History-Of-Any-Town/)
 
 ## Resources for Viewing the History of any Town
-> Please open a [Pull Request](https://github.com/cc18dd/View-History-Of-Any-Town/compare) request if you have more links
+> Please open a [Pull Request](https://github.com/cc18dd/View-History-Of-Any-Town/compare) if you have more links
 
 ### Web Resources
 - Historical GIS Maps - https://ngmdb.usgs.gov/topoview/

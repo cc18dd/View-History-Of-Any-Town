@@ -38,3 +38,6 @@ A lot of southern towns have swept up their history about slavery and don't talk
 
 ### Naming
 Pay attention to any roads, creeks, hills, towns, that are named especially ones that people don't talk about, there could be underlying history about these names and you don't even know about it!
+
+### Closed Businesses 
+Notice that many old factories in the US closed between 2000-2009 due to foreign competition, prices, outdated equipment, the recession and outdated manufacturing techniques.

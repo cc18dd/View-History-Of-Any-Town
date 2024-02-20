@@ -7,6 +7,33 @@ function lookupTown() {
     var resultsTableBody = document.getElementById("resultsTableBody");
 
     if (townName !== "") {
+          var apiKey = '65d4e81aee5b6058596037odse26f95';
+        var geocodeUrl = 'https://geocode.maps.co/search?q=' + encodeURIComponent(townName) + '&api_key=' + apiKey;
+
+        fetch(geocodeUrl)
+        .then(response => response.json())
+        .then(data => {
+            if (data && data.length > 0) {
+                var latitude = data[0].lat;
+                var longitude = data[0].lon;
+
+                // Outputting coordinates to variables
+                var lat1 = latitude;
+                var lon1 = longitude;
+
+                // Outputting coordinates to the HTML elements
+                document.getElementById('latitude').textContent = 'Latitude: ' + lat1;
+                document.getElementById('longitude').textContent = 'Longitude: ' + lon1;
+            } else {
+                document.getElementById('latitude').textContent = 'Latitude: Not found';
+                document.getElementById('longitude').textContent = 'Longitude: Not found';
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('latitude').textContent = 'Latitude: Error';
+            document.getElementById('longitude').textContent = 'Longitude: Error';
+        });
         resultsTableBody.innerHTML = `
             <tr>
                 <td>VintageAerial</td>
@@ -62,7 +89,7 @@ function lookupTown() {
             </tr>
             <tr>
                 <td>TopoView</td>
-                <td><a href="https://ngmdb.usgs.gov/topoview/">Launch Topoview</a></td>
+                <td><a href="https://ngmdb.usgs.gov/topoview/viewer/#14/${lat1}/${lon1}">Launch Topoview</a></td>
                 <td></td>
             </tr>
             <tr>

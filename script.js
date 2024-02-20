@@ -30,7 +30,7 @@ function lookupTown() {
             }
         })
         .catch(error => {
-            console.error('Error:', error);
+            
             document.getElementById('latitude').textContent = 'Latitude: Error';
             document.getElementById('longitude').textContent = 'Longitude: Error';
         });

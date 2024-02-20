@@ -1,3 +1,4 @@
+var lat1, lon1;
 function lookupTown() {
 
       const urlParams = new URLSearchParams(window.location.search);

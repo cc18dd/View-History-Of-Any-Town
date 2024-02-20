@@ -25,7 +25,8 @@ function lookupTown() {
                 var topoViewUrl = 'https://ngmdb.usgs.gov/topoview/viewer/#14/' + lat1 + '/' + lon1;
                 document.getElementById('topoViewLink').href = topoViewUrl;
             } else {
-                
+                var topoViewUrl = 'https://ngmdb.usgs.gov/topoview/viewer/#14/' + 'nooutputdata' + '/' + 'nooutputdata';
+                document.getElementById('topoViewLink').href = topoViewUrl;
             }
         })
         .catch(error => {

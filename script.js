@@ -22,10 +22,10 @@ function lookupTown() {
                 var lat1 = latitude;
                 var lon1 = longitude;
 
-               
+                var topoViewUrl = 'https://ngmdb.usgs.gov/topoview/viewer/#14/' + lat1 + '/' + lon1;
+                document.getElementById('topoViewLink').href = topoViewUrl;
             } else {
-                document.getElementById('latitude').textContent = 'Latitude: Not found';
-                document.getElementById('longitude').textContent = 'Longitude: Not found';
+                
             }
         })
         .catch(error => {
@@ -87,7 +87,7 @@ function lookupTown() {
             </tr>
             <tr>
                 <td>TopoView</td>
-                <td><a href="https://ngmdb.usgs.gov/topoview/viewer/#14/${lat1}/${lon1}">Launch Topoview</a></td>
+                <td><p id="topoViewLink">Launch Topoview</p></td>
                 <td></td>
             </tr>
             <tr>

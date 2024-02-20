@@ -87,7 +87,7 @@ function lookupTown() {
             </tr>
             <tr>
                 <td>TopoView</td>
-                <td><p id="topoViewLink">Launch Topoview</p></td>
+                <td><a id="topoViewLink" href="#" target="_blank">Launch Topoview</a></td>
                 <td></td>
             </tr>
             <tr>

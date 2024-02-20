@@ -22,9 +22,7 @@ function lookupTown() {
                 var lat1 = latitude;
                 var lon1 = longitude;
 
-                // Outputting coordinates to the HTML elements
-                document.getElementById('latitude').textContent = 'Latitude: ' + lat1;
-                document.getElementById('longitude').textContent = 'Longitude: ' + lon1;
+               
             } else {
                 document.getElementById('latitude').textContent = 'Latitude: Not found';
                 document.getElementById('longitude').textContent = 'Longitude: Not found';
@@ -32,8 +30,7 @@ function lookupTown() {
         })
         .catch(error => {
             
-            document.getElementById('latitude').textContent = 'Latitude: Error';
-            document.getElementById('longitude').textContent = 'Longitude: Error';
+            
         });
         resultsTableBody.innerHTML = `
             <tr>
